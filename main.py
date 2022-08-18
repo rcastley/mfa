@@ -6,7 +6,7 @@ import json
 app = Flask(__name__)
 
 SPLUNK_HEC_ENDPOINT = "https://52.12.161.40:8088/services/collector/raw"
-SPLUNK_HEC_TOKEN = "9ac5f021-37ff-4565-8343-a0c1d5032645"
+SPLUNK_HEC_TOKEN = "xxxx"
 auth_error = {
     "legacyEventType": "core.user_auth.login_failed",
     "request": {
